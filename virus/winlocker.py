@@ -23,7 +23,7 @@ def CheckPassword(arg):
 X = root.winfo_screenwidth()
 Y = root.winfo_screenheight()
 
-# cmd("taskkill /f /in explorer.exe", shell=True) # Раскомментировать если хотите запретить доступ к комбинациям "Win+*"
+# cmd("taskkill /f /in explorer.exe", shell=True) # Uncomment if you want to deny access to combinations "Win+*"
 
 
 bg = "black"
